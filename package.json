@@ -1,0 +1,23 @@
+{
+  "name": "practica-3",
+  "version": "1.0.0",
+  "description": "Practica",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkhamZX/Practica-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArkhamZX/Practica-3/issues"
+  },
+  "homepage": "https://github.com/ArkhamZX/Practica-3#readme"
+}
