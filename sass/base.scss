@@ -26,3 +26,9 @@ html,body
     background-color: silver;
     color: black;
 }
+
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
