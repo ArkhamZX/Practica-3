@@ -1,0 +1,57 @@
+.header
+{
+    display: grid;
+    grid-column: 1 / 13;
+    background: url(../images/header-background.jpg) center center no-repeat;
+    background-size: cover;
+
+    &__navbar-top
+    {
+        display: grid;
+        grid-auto-flow: column;
+        padding: 2.125rem 5rem 2.125rem 5rem;
+    }
+
+    &__sr-only
+    {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    &__navbar-colapso
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &__navbar-navegador
+    {
+        display: grid;
+        grid-auto-flow: column;
+        list-style: none;
+    }
+
+    &__nav-link
+    {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        font-stretch: normal;
+        font-size: 0.875rem;
+        line-height: 0.875rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    &__navbar
+    {
+        width: 7.4375rem;
+        height: 2rem;
+    }
+}
