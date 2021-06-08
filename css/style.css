@@ -5,42 +5,6 @@
     .header {
       background: url(../images/header-background.jpg) center center no-repeat;
       background-size: cover; } }
-  .header__navbar-top {
-    display: grid;
-    height: 6rem;
-    align-items: center;
-    grid-auto-flow: column;
-    text-align: center; }
-  .header__navbar {
-    width: 12rem; }
-  .header__logo {
-    font-size: 1.25rem; }
-  .header__sr-only {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px; }
-  .header__navbar-colapso {
-    display: flex;
-    flex-direction: column; }
-  .header__navbar-navegador {
-    display: grid;
-    grid-auto-flow: column;
-    list-style: none;
-    align-items: center;
-    margin: 2rem 2rem 2rem 30rem; }
-  .header__nav-link {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    font-stretch: normal;
-    font-size: 1.3rem;
-    line-height: 0.875rem;
-    font-family: 'Raleway', sans-serif; }
 
 :root {
   --blue: #007bff;
