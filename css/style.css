@@ -7,8 +7,12 @@
       background-size: cover; } }
   .header__navbar-top {
     display: grid;
+    height: 6rem;
+    align-items: center;
     grid-auto-flow: column;
-    padding: 2.125rem 5rem 2.125rem 5rem; }
+    text-align: center; }
+  .header__navbar {
+    width: 12rem; }
   .header__logo {
     font-size: 1.25rem; }
   .header__sr-only {
@@ -26,18 +30,17 @@
   .header__navbar-navegador {
     display: grid;
     grid-auto-flow: column;
-    list-style: none; }
+    list-style: none;
+    align-items: center;
+    margin: 2rem 2rem 2rem 30rem; }
   .header__nav-link {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
     font-stretch: normal;
-    font-size: 0.875rem;
+    font-size: 1.3rem;
     line-height: 0.875rem;
     font-family: 'Raleway', sans-serif; }
-  .header__navbar {
-    width: 12rem;
-    height: 2rem; }
 
 :root {
   --blue: #007bff;
