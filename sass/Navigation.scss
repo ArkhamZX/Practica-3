@@ -1,0 +1,38 @@
+.navbar
+{
+    display: flex;
+
+    &__nav
+    {
+        display: flex !important;
+    }
+    
+    @media (min-width: 1200px) 
+    {
+        padding: 2.125rem 5rem 2.125rem 5rem;
+    }
+
+    @media (min-width: 992px) 
+    {
+        padding: 2.125rem 1.5rem 2.125rem 2em;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    &__logo
+    {
+        display: inline-block;
+        padding-top: 0.3215rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height:inherit;
+        white-space: nowrap;
+    }
+}
+
+img
+{
+    width: 7.4375rem;
+    height: 2rem;
+}
