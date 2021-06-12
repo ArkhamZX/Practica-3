@@ -4,8 +4,6 @@
   "description": "evolo",
   "main": "index.js",
   "dependencies": {
-    "@popperjs/core": "^2.9.2",
-    "bootstrap": "^5.0.0-beta3",
     "node-sass": "^6.0.0"
   },
   "devDependencies": {},
