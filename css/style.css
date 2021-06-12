@@ -48,6 +48,10 @@ body, html {
       background: transparent;
       box-shadow: none; } }
 
+.navbar-dark {
+  background-color: transparent;
+  box-shadow: transparent; }
+
 .logo {
   width: 12rem;
   height: 3rem; }
