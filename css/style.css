@@ -115,3 +115,10 @@ body, html {
 ul {
   padding: 0;
   margin: 0; }
+
+.nav {
+  background: transparent !important;
+  transition: 0.75s ease; }
+
+.nav {
+  background: #000 !important; }
